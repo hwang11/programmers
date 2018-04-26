@@ -1,6 +1,5 @@
 package level3;
 
-import java.util.*;
 public class Caesar {
 	String caesar(String s, int n) {
 		String result = "";

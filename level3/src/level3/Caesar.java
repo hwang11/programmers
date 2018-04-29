@@ -3,7 +3,6 @@ package level3;
 public class Caesar {
 	String caesar(String s, int n) {
 		String result = "";
-		// 함수를 완성하세요.
 		int a, k;
 		a = k = 0;
     //n %= 26;

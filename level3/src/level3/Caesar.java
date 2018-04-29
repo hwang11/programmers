@@ -4,7 +4,7 @@ public class Caesar {
 	String caesar(String s, int n) {
 		String result = "";
 		// 함수를 완성하세요.
-		int a,k;
+		int a, k;
 		a = k = 0;
     //n %= 26;
 	    for(int i=0; i<s.length();i++){

@@ -2,7 +2,7 @@ package level;
 import java.util.*;
 
 public class TryHelloWorld {
-    //인구수가 많은 곳이 이동거리가 가장 작은 
+    //인구수가 많은 곳이 이동거리가 가장 작은 도
     public int chooseCity(int n, int [][]city) {
     	int idx=city[0][0];
         int max = city[0][1];

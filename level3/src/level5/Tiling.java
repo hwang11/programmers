@@ -12,7 +12,6 @@ class Tiling {
 		}
 		return dp[n];
 	}
-
 	public static void main(String args[]) {
 		Tiling tryHelloWorld = new Tiling();
 		System.out.print(tryHelloWorld.tiling(3));

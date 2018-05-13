@@ -2,7 +2,7 @@ package dp;
 import java.util.*;
 public class Main {	
 	public int rgb(int n[][],int le) {
-		for(int i=1;i<le+1;i++) {
+		for(int i=1;i<le;i++) {
 			n[i][0]+= Math.min(n[i-1][1], n[i-1][2]);
 			n[i][1]+= Math.min(n[i-1][0], n[i-1][2]);
 			n[i][2]+= Math.min(n[i-1][1], n[i-1][0]);			

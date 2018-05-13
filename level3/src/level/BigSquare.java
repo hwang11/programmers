@@ -10,7 +10,7 @@ public class BigSquare {
 	    public static void main(String[] args)
 	    {
 	    	BigSquare test = new BigSquare();
-					char [][]board ={
+					char [][]board ={11
 					{'X','O','O','O','X'},
 					{'X','O','O','O','O'},
 					{'X','X','O','O','O'},

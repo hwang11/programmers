@@ -4,7 +4,7 @@ public class BOJ2193 {
 	public static void main(String args[]) {
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
-		int dp[] = new int[90];
+		long dp[] = new long[90];
 		dp[0]=0;
 		dp[1]=1;
 		for(int i=2;i<=n;i++) {

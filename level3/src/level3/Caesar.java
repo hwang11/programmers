@@ -1,5 +1,5 @@
 package level3;
-
+//level3
 public class Caesar {
 	String caesar(String s, int n) {
 		String result = "";
@@ -18,7 +18,7 @@ public class Caesar {
         }
 	      else if(k>=97 && k<=122){
           if(a>122)
-	        	result += (char)((97+(a-123)%26));
+	        	result += (char)((97+(a-123)%26)); 
         }
       }
 		return result;
